@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ALL THE ICONS WE CURRENTLY DISPLAYING INSIDE THE BUTTONS ARE SVG. */
+button > svg {
+  margin-right: 5px;
+}
+
+.buttons > div > button {
+  margin-top: 20px;
+  margin-right: 20px;
+}
